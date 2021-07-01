@@ -1,0 +1,36 @@
+/* Write you CSS here */
+.bg {
+  background-color: white;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+}
+.heading-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: radial-gradient(#2b237c, #180d5b);
+}
+
+.heading {
+  color: #ffffff;
+  font-family: 'Playfair Display';
+  font-size: 60px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
